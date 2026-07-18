@@ -1,11 +1,12 @@
 # Hi, I'm Mohammad Mahdi Assaf
 
-CS student at Lebanese University (class of 2027), building AI-powered backend systems in Python.
+CS student at Lebanese University (class of 2027), building AI-powered backend systems in Python. Focus: **AI engineering** — retrieval, agents, and LLM evaluation, learned by shipping.
 
 ## What I'm working on
 
-- 🍽️ **[MealWise](https://github.com/mohammadmassaf/mealwise)** — AI meal-planning app: LLM-generated multi-day plans with nutrition data verified against the USDA food database. Python backend, JWT auth.
-- 🔭 Currently exploring **AI engineering** through short, shipped projects — going deeper into agents, retrieval, and LLM evaluation.
+- 🔨 **[Grounded Forge](https://github.com/mohammadmassaf/GroundedForge)** — cite-or-strike quiz generator over your own course PDFs: every answer cites its source page, an independent Critic agent strikes any claim the sources don't support. **92.7% grounding · 100% recall@10** on a fixed eval set. Hand-rolled multi-agent loop (no LangChain), hybrid retrieval (BM25 + RRF + cross-encoder re-rank), pytest suite + CI.
+- 🍽️ **[MealWise](https://github.com/mohammadmassaf/mealwise)** — AI meal-planning app: LLM-generated multi-day plans with nutrition verified against the USDA food database. Python backend, JWT auth.
+- 📚 Working through Karpathy's *Neural Networks: Zero to Hero* — building every network from scratch to ground the theory behind the systems I ship.
 
 ## Background
 
