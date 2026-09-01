@@ -17,4 +17,4 @@ CS student at Lebanese University (class of 2027), building AI-powered backend s
 ## Reach me
 
 - LinkedIn: [mohammad-assaf](https://www.linkedin.com/in/mohammad-assaf-1b9668349)
-- Email: mahdiassaf998@gmail.com
+- Email: mohammadmassaf1@gmail.com
