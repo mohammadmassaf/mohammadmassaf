@@ -4,7 +4,7 @@ CS student at Lebanese University (class of 2027), building AI-powered backend s
 
 ## What I'm working on
 
-- 🔨 **[Grounded Forge](https://github.com/mohammadmassaf/GroundedForge)** — cite-or-strike quiz generator over your own course PDFs: every answer cites its source page, an independent Critic agent strikes any claim the sources don't support. **92.7% grounding · 100% recall@10** on a fixed eval set. Hand-rolled multi-agent loop (no LangChain), hybrid retrieval (BM25 + RRF + cross-encoder re-rank), pytest suite + CI.
+- 🔨 **[Grounded Forge](https://github.com/mohammadmassaf/GroundedForge)** — a cite-or-strike artifact generator: every claim cites your own documents, and an independent Critic agent strikes anything the sources don't support. Two modes on one engine. Study mode turns course PDFs into a cited quiz; job mode turns git history and project notes into cited CV bullets and STAR answers. Measured, not asserted: **100% grounding on study mode (40/40 claims), 96.7% on job mode (29/30), 100% recall@10, 6/6 adversarial inflation traps caught** (`openai/gpt-oss-20b`, August 2026). Hand-rolled multi-agent loop, hybrid retrieval (BM25 + RRF + cross-encoder re-rank), 135 tests + CI.
 - 🍽️ **[MealWise](https://github.com/mohammadmassaf/mealwise)** — AI meal-planning app: LLM-generated multi-day plans with nutrition verified against the USDA food database. Python backend, JWT auth.
 - 📚 Working through Karpathy's *Neural Networks: Zero to Hero* — building every network from scratch to ground the theory behind the systems I ship.
 
